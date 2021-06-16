@@ -1,0 +1,2 @@
+rootProject.name = "Bekasi Sport"
+include ':app'
