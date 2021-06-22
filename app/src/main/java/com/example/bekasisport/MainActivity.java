@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        buttonNewsPage = (Button) findViewById(R.id.homeNews);
+        buttonNewsPage = findViewById(R.id.homeNews);
         buttonNewsPage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
-        buttonCommunityPage =(Button) findViewById(R.id.homeCommunity);
+        buttonCommunityPage = findViewById(R.id.homeCommunity);
         buttonCommunityPage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

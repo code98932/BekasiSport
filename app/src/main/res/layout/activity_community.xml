@@ -6,12 +6,226 @@
     android:layout_height="match_parent"
     tools:context=".CommunityActivity">
 
-
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Ini community"
-        android:textStyle="bold"
-        android:textSize="23sp"/>
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="579dp"
+        android:background="@drawable/button_edit"
+        android:gravity="center"
+        android:text="Comunity"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+
+    <TextView
+        android:id="@+id/image1"
+        android:layout_width="183dp"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="209dp"
+        android:layout_marginBottom="403dp"
+        android:background="@drawable/button_edit"
+        android:gravity="center"
+        android:text="Basket"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/homeCommunity"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="183dp"
+        android:layout_height="130dp"
+        android:layout_alignStart="@+id/image1"
+        android:layout_alignTop="@+id/image1"
+        android:layout_alignEnd="@+id/image1"
+        android:layout_alignBottom="@+id/imagej"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="2dp"
+        />
+
+
+    <TextView
+        android:id="@+id/imagej"
+        android:layout_width="183dp"
+        android:layout_height="130dp"
+        android:layout_alignStart="@+id/image1"
+        android:layout_alignTop="@+id/image1"
+        android:layout_alignEnd="@+id/image1"
+        android:layout_alignBottom="@+id/image1"
+        android:layout_marginStart="193dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-191dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/button_edit"
+        android:gravity="center"
+        android:text="Basket"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/homerun"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="183dp"
+        android:layout_height="131dp"
+        android:layout_alignStart="@+id/image1"
+        android:layout_alignTop="@+id/image1"
+        android:layout_alignEnd="@+id/image1"
+        android:layout_alignBottom="@+id/image1"
+        android:layout_marginStart="193dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-191dp"
+        android:layout_marginBottom="0dp"
+         />
+
+
+    <TextView
+        android:id="@+id/imagea"
+        android:layout_width="183dp"
+        android:layout_height="130dp"
+        android:layout_alignStart="@+id/image1"
+        android:layout_alignEnd="@+id/image1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="221dp"
+        android:background="@drawable/button_edit"
+        android:gravity="center"
+        android:text="Basket"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/aas"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="129dp"
+        android:layout_alignStart="@+id/image1"
+        android:layout_alignTop="@+id/image1"
+        android:layout_alignEnd="@+id/image1"
+        android:layout_alignBottom="@+id/imagej"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="-183dp"
+         />
+
+    <TextView
+        android:id="@+id/imageaa"
+        android:layout_width="183dp"
+        android:layout_height="130dp"
+        android:layout_alignStart="@+id/imagej"
+        android:layout_alignTop="@+id/imagea"
+        android:layout_alignEnd="@+id/imagej"
+        android:layout_alignBottom="@+id/imagea"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/button_edit"
+        android:gravity="center"
+        android:text="Basket"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/homeruna"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="183dp"
+        android:layout_height="131dp"
+        android:layout_alignStart="@+id/image1"
+        android:layout_alignTop="@+id/image1"
+        android:layout_alignEnd="@+id/image1"
+        android:layout_alignBottom="@+id/image1"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="183dp"
+        android:layout_marginEnd="-190dp"
+        android:layout_marginBottom="-183dp"
+         />
+
+    <TextView
+        android:id="@+id/imageb"
+        android:layout_width="183dp"
+        android:layout_height="130dp"
+        android:layout_alignStart="@+id/imagea"
+        android:layout_alignEnd="@+id/imagea"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="39dp"
+        android:background="@drawable/button_edit"
+        android:gravity="center"
+        android:text="Basket"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/aasb"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="136dp"
+        android:layout_alignStart="@+id/image1"
+        android:layout_alignTop="@+id/imageb"
+        android:layout_alignEnd="@+id/image1"
+        android:layout_alignBottom="@+id/imagej"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-367dp"
+         />
+
+
+    <TextView
+        android:id="@+id/imagebb"
+        android:layout_width="183dp"
+        android:layout_height="130dp"
+        android:layout_alignStart="@+id/imageaa"
+        android:layout_alignTop="@+id/imagej"
+        android:layout_alignEnd="@+id/imageaa"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="365dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/button_edit"
+        android:gravity="center"
+        android:text="Basket"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/homeru"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="131dp"
+        android:layout_alignStart="@+id/image1"
+        android:layout_alignTop="@+id/image1"
+        android:layout_alignEnd="@+id/image1"
+        android:layout_alignBottom="@+id/image1"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="365dp"
+        android:layout_marginEnd="-184dp"
+        android:layout_marginBottom="-366dp" />
+
 
 </RelativeLayout>
