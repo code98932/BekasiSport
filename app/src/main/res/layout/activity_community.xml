@@ -24,6 +24,7 @@
         android:textSize="40dp" />
 
 
+
     <TextView
         android:id="@+id/image1"
         android:layout_width="183dp"
@@ -41,7 +42,6 @@
         android:textColor="@color/white"
         android:textSize="35dp"
         app:layout_constraintStart_toStartOf="parent" />
-
     <Button
         android:id="@+id/homeCommunity"
         style="@style/Widget.AppCompat.Button.Borderless"
@@ -76,7 +76,6 @@
         android:textColor="@color/white"
         android:textSize="35dp"
         app:layout_constraintStart_toStartOf="parent" />
-
     <Button
         android:id="@+id/homerun"
         style="@style/Widget.AppCompat.Button.Borderless"
@@ -110,7 +109,6 @@
         android:textColor="@color/white"
         android:textSize="35dp"
         app:layout_constraintStart_toStartOf="parent" />
-
     <Button
         android:id="@+id/aas"
         style="@style/Widget.AppCompat.Button.Borderless"
@@ -125,6 +123,7 @@
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="-183dp"
          />
+
 
     <TextView
         android:id="@+id/imageaa"
@@ -144,7 +143,6 @@
         android:textColor="@color/white"
         android:textSize="35dp"
         app:layout_constraintStart_toStartOf="parent" />
-
     <Button
         android:id="@+id/homeruna"
         style="@style/Widget.AppCompat.Button.Borderless"
@@ -159,6 +157,7 @@
         android:layout_marginEnd="-190dp"
         android:layout_marginBottom="-183dp"
          />
+
 
     <TextView
         android:id="@+id/imageb"
@@ -177,7 +176,6 @@
         android:textColor="@color/white"
         android:textSize="35dp"
         app:layout_constraintStart_toStartOf="parent" />
-
     <Button
         android:id="@+id/aasb"
         style="@style/Widget.AppCompat.Button.Borderless"
@@ -212,7 +210,6 @@
         android:textColor="@color/white"
         android:textSize="35dp"
         app:layout_constraintStart_toStartOf="parent" />
-
     <Button
         android:id="@+id/homeru"
         style="@style/Widget.AppCompat.Button.Borderless"
