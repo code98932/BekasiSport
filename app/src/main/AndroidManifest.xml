@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BekasiSport">
-        <activity android:name=".CommunityActivity"></activity>
+        <activity android:name=".FootballActivity"></activity>
+        <activity android:name=".CyclingActivity" />
+        <activity android:name=".SwimmingActivity" />
+        <activity android:name=".SkateboardActivity" />
+        <activity android:name=".BasketActivity" />
+        <activity android:name=".BadmintonActivity" />
+        <activity android:name=".activity.BadmintonActivity" />
+        <activity android:name=".CommunityActivity" />
         <activity android:name=".NewsActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
