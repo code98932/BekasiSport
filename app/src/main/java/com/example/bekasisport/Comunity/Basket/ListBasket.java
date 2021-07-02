@@ -1,4 +1,4 @@
 package com.example.bekasisport.Comunity.Basket;
 
-public class List {
+public class ListBasket {
 }
