@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.bekasisport.Comunity.CommunityActivity;
+
 public class MainActivity extends AppCompatActivity {
     private Button buttonNewsPage;
     private Button buttonCommunityPage;

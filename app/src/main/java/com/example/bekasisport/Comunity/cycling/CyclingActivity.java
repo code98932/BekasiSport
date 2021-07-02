@@ -1,14 +1,16 @@
-package com.example.bekasisport;
+package com.example.bekasisport.Comunity.cycling;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class SwimmingActivity extends AppCompatActivity {
+import com.example.bekasisport.R;
+
+public class CyclingActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_swimming);
+        setContentView(R.layout.activity_cycling);
     }
 }

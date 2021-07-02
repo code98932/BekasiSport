@@ -9,14 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BekasiSport">
-        <activity android:name=".FootballActivity"></activity>
-        <activity android:name=".CyclingActivity" />
-        <activity android:name=".SwimmingActivity" />
-        <activity android:name=".SkateboardActivity" />
-        <activity android:name=".BasketActivity" />
-        <activity android:name=".BadmintonActivity" />
+        <activity android:name=".Comunity.Football.FootballActivity"></activity>
+        <activity android:name=".Comunity.cycling.CyclingActivity" />
+        <activity android:name=".Comunity.Swimming.SwimmingActivity" />
+        <activity android:name=".Comunity.Skateboard.SkateboardActivity" />
+        <activity android:name=".Comunity.Basket.BasketActivity" />
+        <activity android:name=".Comunity.Badminton.BadmintonActivity" />
         <activity android:name=".activity.BadmintonActivity" />
-        <activity android:name=".CommunityActivity" />
+        <activity android:name=".Comunity.CommunityActivity" />
         <activity android:name=".NewsActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

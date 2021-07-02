@@ -1,4 +1,4 @@
-package com.example.bekasisport;
+package com.example.bekasisport.Comunity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.bekasisport.Comunity.Badminton.BadmintonActivity;
+import com.example.bekasisport.Comunity.Basket.BasketActivity;
+import com.example.bekasisport.Comunity.Football.FootballActivity;
+import com.example.bekasisport.Comunity.Skateboard.SkateboardActivity;
+import com.example.bekasisport.Comunity.Swimming.SwimmingActivity;
+import com.example.bekasisport.Comunity.cycling.CyclingActivity;
+import com.example.bekasisport.R;
 
 
 public class CommunityActivity extends AppCompatActivity {

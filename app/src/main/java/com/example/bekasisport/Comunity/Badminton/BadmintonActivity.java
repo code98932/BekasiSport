@@ -1,14 +1,17 @@
-package com.example.bekasisport;
+
+package com.example.bekasisport.Comunity.Badminton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class FootballActivity extends AppCompatActivity {
+import com.example.bekasisport.R;
+
+public class BadmintonActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_football);
+        setContentView(R.layout.activity_badminton);
     }
 }

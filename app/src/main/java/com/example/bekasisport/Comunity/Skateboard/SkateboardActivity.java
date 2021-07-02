@@ -1,8 +1,10 @@
-package com.example.bekasisport;
+package com.example.bekasisport.Comunity.Skateboard;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.bekasisport.R;
 
 public class SkateboardActivity extends AppCompatActivity {
 
