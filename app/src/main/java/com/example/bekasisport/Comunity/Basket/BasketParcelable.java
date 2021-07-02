@@ -1,4 +1,4 @@
 package com.example.bekasisport.Comunity.Basket;
 
-public class BaketParcelable {
+public class BasketParcelable {
 }
