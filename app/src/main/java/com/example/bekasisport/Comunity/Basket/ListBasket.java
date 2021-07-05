@@ -41,14 +41,14 @@ public class ListBasket extends RecyclerView.Adapter<ListBasket.ListViewHolder> 
         holder.tvName.setText(basket.getName());
         holder.tvDetail.setText(basket.getDetail());
 
-//        holder.itemView.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent =new Intent(v.getContext(),DetailBasket.class);
-//                intent.putExtra("basket",(Basket) listBasket.get(position));
-//                v.getContext().startActivity(intent);
-//            }
-//        });
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent =new Intent(v.getContext(),DetailBasket.class);
+                intent.putExtra("basket",(Basket) listBasket.get(position));
+                v.getContext().startActivity(intent);
+            }
+        });
 
 
     }

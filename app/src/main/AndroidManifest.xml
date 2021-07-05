@@ -16,7 +16,6 @@
         <activity android:name=".Comunity.Skateboard.SkateboardActivity" />
         <activity android:name=".Comunity.Basket.BasketActivity" />
         <activity android:name=".Comunity.Badminton.BadmintonActivity" />
-        <activity android:name=".activity.BadmintonActivity" />
         <activity android:name=".Comunity.CommunityActivity" />
         <activity android:name=".NewsActivity" />
         <activity android:name=".MainActivity">
