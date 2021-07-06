@@ -18,7 +18,7 @@ import java.util.ArrayList;
 
 public class ListBasket extends RecyclerView.Adapter<ListBasket.ListViewHolder> {
 
-    private ArrayList<Basket> listBasket;
+    private final ArrayList<Basket> listBasket;
 
     public ListBasket(ArrayList<Basket> list){
         this.listBasket = list;
@@ -41,13 +41,10 @@ public class ListBasket extends RecyclerView.Adapter<ListBasket.ListViewHolder> 
         holder.tvName.setText(basket.getName());
         holder.tvDetail.setText(basket.getDetail());
 
-        holder.itemView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent =new Intent(v.getContext(),DetailBasket.class);
-                intent.putExtra("basket",(Basket) listBasket.get(position));
-                v.getContext().startActivity(intent);
-            }
+        holder.itemView.setOnClickListener(v -> {
+            Intent intent =new Intent(v.getContext(),DetailBasket.class);
+            intent.putExtra("basket",(Basket) listBasket.get(position));
+            v.getContext().startActivity(intent);
         });
 
 
@@ -58,7 +55,7 @@ public class ListBasket extends RecyclerView.Adapter<ListBasket.ListViewHolder> 
         return listBasket.size();
     }
 
-    public class ListViewHolder extends RecyclerView.ViewHolder {
+    public static class ListViewHolder extends RecyclerView.ViewHolder {
         ImageView imgPhoto;
         TextView tvName,tvDetail;
 

@@ -12,16 +12,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
-import com.example.bekasisport.Comunity.Basket.Basket;
-import com.example.bekasisport.Comunity.Basket.DetailBasket;
-import com.example.bekasisport.Comunity.Basket.ListBasket;
 import com.example.bekasisport.R;
 
 import java.util.ArrayList;
 
 public class ListBadminton extends RecyclerView.Adapter<ListBadminton.ListViewHolder> {
 
-    private ArrayList<Badminton> listBadminton;
+    private final ArrayList<Badminton> listBadminton;
 
     public ListBadminton(ArrayList<Badminton> list){
         this.listBadminton = list;
@@ -45,13 +42,10 @@ public class ListBadminton extends RecyclerView.Adapter<ListBadminton.ListViewHo
         holder.tvName.setText(badminton.getName());
         holder.tvDetail.setText(badminton.getDetail());
 
-        holder.itemView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent =new Intent(v.getContext(), DetailBadminton.class);
-                intent.putExtra("badminton",(Badminton) listBadminton.get(position));
-                v.getContext().startActivity(intent);
-            }
+        holder.itemView.setOnClickListener(v -> {
+            Intent intent =new Intent(v.getContext(), DetailBadminton.class);
+            intent.putExtra("badminton",(Badminton) listBadminton.get(position));
+            v.getContext().startActivity(intent);
         });
 
 
@@ -62,7 +56,7 @@ public class ListBadminton extends RecyclerView.Adapter<ListBadminton.ListViewHo
         return listBadminton.size();
     }
 
-    public class ListViewHolder extends RecyclerView.ViewHolder {
+    public static class ListViewHolder extends RecyclerView.ViewHolder {
         ImageView imgPhoto;
         TextView tvName,tvDetail;
 

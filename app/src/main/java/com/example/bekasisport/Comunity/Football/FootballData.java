@@ -1,23 +1,21 @@
 package com.example.bekasisport.Comunity.Football;
 
-import com.example.bekasisport.Comunity.cycling.Cycling;
 import com.example.bekasisport.R;
-
 import java.util.ArrayList;
 import java.util.Collection;
 
 public class FootballData {
 
 
-    private static String[] footballName = {
+    private static final String[] footballName = {
             "test"
     };
 
-    private static String[] footballDetail = {
+    private static final String[] footballDetail = {
             "meong"
     };
 
-    private static int[] footballImage= {
+    private static final int[] footballImage= {
             R.drawable.test
 
     };

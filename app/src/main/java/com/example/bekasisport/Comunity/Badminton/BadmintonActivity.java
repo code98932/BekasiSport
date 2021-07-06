@@ -6,17 +6,13 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-
-import com.example.bekasisport.Comunity.Basket.Basket;
-import com.example.bekasisport.Comunity.Basket.BasketData;
-import com.example.bekasisport.Comunity.Basket.ListBasket;
 import com.example.bekasisport.R;
 
 import java.util.ArrayList;
 
 public class BadmintonActivity extends AppCompatActivity {
     private RecyclerView rvBadminton;
-    private ArrayList<Badminton> list = new ArrayList<>();
+    private final ArrayList<Badminton> list = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

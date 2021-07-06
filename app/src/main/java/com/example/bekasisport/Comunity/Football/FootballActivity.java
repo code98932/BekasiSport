@@ -5,17 +5,13 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-
-import com.example.bekasisport.Comunity.cycling.Cycling;
-import com.example.bekasisport.Comunity.cycling.CyclingData;
-import com.example.bekasisport.Comunity.cycling.ListCycling;
 import com.example.bekasisport.R;
 
 import java.util.ArrayList;
 
 public class FootballActivity extends AppCompatActivity {
     private RecyclerView rvFootball;
-    private ArrayList<Football> list = new ArrayList<>();
+    private final ArrayList<Football> list = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

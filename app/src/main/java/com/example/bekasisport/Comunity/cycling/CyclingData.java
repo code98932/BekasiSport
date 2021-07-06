@@ -1,22 +1,20 @@
 package com.example.bekasisport.Comunity.cycling;
 
-import com.example.bekasisport.Comunity.Basket.Basket;
 import com.example.bekasisport.R;
-
 import java.util.ArrayList;
 import java.util.Collection;
 
 public class CyclingData {
 
-    private static String[] cyclingName = {
+    private static final String[] cyclingName = {
             "test"
     };
 
-    private static String[] cyclingDetail = {
+    private static final String[] cyclingDetail = {
             "me"
     };
 
-    private static int[] cyclingImage= {
+    private static final int[] cyclingImage= {
             R.drawable.test
 
     };

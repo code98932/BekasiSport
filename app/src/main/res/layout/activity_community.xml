@@ -19,12 +19,11 @@
         android:layout_marginBottom="579dp"
         android:background="@drawable/button_edit"
         android:gravity="center"
-        android:text="Comunity"
+        android:text="@string/comunity"
         android:textColor="@color/white"
-        android:textSize="40dp" />
+        android:textSize="40sp" />
 
 
-//
     <TextView
         android:id="@+id/Textbasket"
         android:layout_width="183dp"
@@ -38,9 +37,9 @@
         android:layout_marginBottom="403dp"
         android:background="@drawable/button_edit"
         android:gravity="center"
-        android:text="Basket"
+        android:text="@string/basket"
         android:textColor="@color/white"
-        android:textSize="35dp"
+        android:textSize="35sp"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -58,9 +57,6 @@
         android:layout_marginBottom="2dp"
         />
 
-    //
-
-
     <TextView
         android:id="@+id/textbadminton"
         android:layout_width="183dp"
@@ -75,9 +71,9 @@
         android:layout_marginBottom="0dp"
         android:background="@drawable/button_edit"
         android:gravity="center"
-        android:text="Badminton"
+        android:text="@string/badminton"
         android:textColor="@color/white"
-        android:textSize="33dp"
+        android:textSize="33sp"
         app:layout_constraintStart_toStartOf="parent" />
     <Button
         android:id="@+id/badmintonA"
@@ -94,7 +90,6 @@
         android:layout_marginBottom="0dp"
          />
 
-//
     <TextView
         android:id="@+id/textskateboard"
         android:layout_width="183dp"
@@ -108,9 +103,9 @@
         android:layout_marginBottom="221dp"
         android:background="@drawable/button_edit"
         android:gravity="center"
-        android:text="SkateBoard"
+        android:text="@string/skateboard"
         android:textColor="@color/white"
-        android:textSize="33dp"
+        android:textSize="33sp"
         app:layout_constraintStart_toStartOf="parent" />
     <Button
         android:id="@+id/skateboardA"
@@ -127,8 +122,6 @@
         android:layout_marginBottom="-183dp"
          />
 
-    //
-
 
     <TextView
         android:id="@+id/textswimming"
@@ -144,9 +137,9 @@
         android:layout_marginBottom="0dp"
         android:background="@drawable/button_edit"
         android:gravity="center"
-        android:text="Swimming"
+        android:text="@string/swimming"
         android:textColor="@color/white"
-        android:textSize="33dp"
+        android:textSize="33sp"
         app:layout_constraintStart_toStartOf="parent" />
     <Button
         android:id="@+id/swimmingA"
@@ -162,7 +155,6 @@
         android:layout_marginEnd="-190dp"
         android:layout_marginBottom="-183dp"
          />
-//
 
     <TextView
         android:id="@+id/textcycling"
@@ -177,9 +169,9 @@
         android:layout_marginBottom="39dp"
         android:background="@drawable/button_edit"
         android:gravity="center"
-        android:text="Cycling"
+        android:text="@string/cycling"
         android:textColor="@color/white"
-        android:textSize="35dp"
+        android:textSize="35sp"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -196,7 +188,6 @@
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="-367dp"
          />
-//
 
     <TextView
         android:id="@+id/textfootball"
@@ -212,9 +203,9 @@
         android:layout_marginBottom="38dp"
         android:background="@drawable/button_edit"
         android:gravity="center"
-        android:text="FootBall"
+        android:text="@string/football"
         android:textColor="@color/white"
-        android:textSize="35dp"
+        android:textSize="35sp"
         app:layout_constraintStart_toStartOf="parent" />
     <Button
         android:id="@+id/footballA"

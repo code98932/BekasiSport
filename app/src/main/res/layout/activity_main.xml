@@ -12,9 +12,9 @@
         android:layout_height="29dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="Most Popular"
+        android:text="@string/most_popular"
         android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -69,9 +69,9 @@
         android:layout_width="387dp"
         android:layout_height="29dp"
         android:layout_marginTop="112dp"
-        android:text="Category"
+        android:text="@string/category"
         android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />

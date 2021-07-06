@@ -8,15 +8,15 @@ import java.util.Collection;
 
 public class BadmintonData {
 
-    private static String[] badmintonName = {
+    private static final String[] badmintonName = {
             "test"
     };
 
-    private static String[] badmintonDetail = {
+    private static final String[] badmintonDetail = {
             "mi"
     };
 
-    private static int[] badmintonImage= {
+    private static final int[] badmintonImage= {
             R.drawable.test
 
     };

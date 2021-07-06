@@ -7,15 +7,15 @@ import java.util.Collection;
 
 public class BasketData {
 
-    private static String[] basketName = {
+    private static final String[] basketName = {
             "test"
     };
 
-    private static String[] basketDetail = {
+    private static final String[] basketDetail = {
             "ma"
     };
 
-    private static int[] basketImage= {
+    private static final int[] basketImage= {
             R.drawable.test
 
     };

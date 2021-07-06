@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 public class BasketActivity extends AppCompatActivity {
     private RecyclerView rvBasket;
-    private ArrayList<Basket> list = new ArrayList<>();
+    private final ArrayList<Basket> list = new ArrayList<>();
 
 
     @Override

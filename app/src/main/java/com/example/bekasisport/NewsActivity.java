@@ -1,10 +1,7 @@
 package com.example.bekasisport;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
-
-import com.example.bekasisport.R;
 
 public class NewsActivity extends AppCompatActivity {
 
