@@ -12,7 +12,7 @@ public class BasketData {
     };
 
     private static String[] basketDetail = {
-            "m"
+            "ma"
     };
 
     private static int[] basketImage= {

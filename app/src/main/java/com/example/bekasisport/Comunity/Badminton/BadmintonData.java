@@ -13,7 +13,7 @@ public class BadmintonData {
     };
 
     private static String[] badmintonDetail = {
-            "m"
+            "mi"
     };
 
     private static int[] badmintonImage= {
