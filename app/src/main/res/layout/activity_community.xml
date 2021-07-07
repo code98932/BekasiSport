@@ -21,7 +21,7 @@
         android:gravity="center"
         android:text="@string/comunity"
         android:textColor="@color/white"
-        android:textSize="40sp" />
+        android:textSize="32sp" />
 
 
     <TextView
@@ -39,7 +39,7 @@
         android:gravity="center"
         android:text="@string/basket"
         android:textColor="@color/white"
-        android:textSize="35sp"
+        android:textSize="28sp"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -73,8 +73,9 @@
         android:gravity="center"
         android:text="@string/badminton"
         android:textColor="@color/white"
-        android:textSize="33sp"
+        android:textSize="28sp"
         app:layout_constraintStart_toStartOf="parent" />
+
     <Button
         android:id="@+id/badmintonA"
         style="@style/Widget.AppCompat.Button.Borderless"
@@ -105,7 +106,7 @@
         android:gravity="center"
         android:text="@string/skateboard"
         android:textColor="@color/white"
-        android:textSize="33sp"
+        android:textSize="28sp"
         app:layout_constraintStart_toStartOf="parent" />
     <Button
         android:id="@+id/skateboardA"
@@ -139,7 +140,7 @@
         android:gravity="center"
         android:text="@string/swimming"
         android:textColor="@color/white"
-        android:textSize="33sp"
+        android:textSize="28sp"
         app:layout_constraintStart_toStartOf="parent" />
     <Button
         android:id="@+id/swimmingA"
@@ -171,7 +172,7 @@
         android:gravity="center"
         android:text="@string/cycling"
         android:textColor="@color/white"
-        android:textSize="35sp"
+        android:textSize="28sp"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -205,7 +206,7 @@
         android:gravity="center"
         android:text="@string/football"
         android:textColor="@color/white"
-        android:textSize="35sp"
+        android:textSize="28sp"
         app:layout_constraintStart_toStartOf="parent" />
     <Button
         android:id="@+id/footballA"
