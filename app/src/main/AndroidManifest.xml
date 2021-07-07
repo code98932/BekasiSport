@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BekasiSport">
-        <activity android:name=".Comunity.Football.DetailFootball"></activity>
+        <activity android:name=".Comunity.Swimming.DetailSwimming"></activity>
+        <activity android:name=".Comunity.Skateboard.DetailSkateboard" />
+        <activity android:name=".Comunity.Football.DetailFootball" />
         <activity android:name=".Comunity.cycling.DetailCycling" />
         <activity android:name=".Comunity.Badminton.DetailBadminton" />
         <activity android:name=".Comunity.Basket.DetailBasket" />
