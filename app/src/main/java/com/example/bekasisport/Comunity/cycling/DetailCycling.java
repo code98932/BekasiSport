@@ -19,14 +19,14 @@ public class DetailCycling extends AppCompatActivity {
         setContentView(R.layout.activity_detail_cycling);
 
         txtName = findViewById(R.id.textjudulcycling);
-        Basket hotel = getIntent().getParcelableExtra("cycling");
-        txtName.setText(hotel.getName());
+        Cycling cycling = getIntent().getParcelableExtra("cycling");
+        txtName.setText(cycling.getName());
 
         txtDetail = findViewById(R.id.penjelasancycling);
-        txtDetail.setText(hotel.getDetail());
+        txtDetail.setText(cycling.getDetail());
 
         imgView = findViewById(R.id.gambarcycling);
-        imgView.setImageResource(hotel.getPhoto());
+        imgView.setImageResource(cycling.getPhoto());
 
 
     }

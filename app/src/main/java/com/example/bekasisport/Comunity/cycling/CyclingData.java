@@ -9,14 +9,10 @@ public class CyclingData {
     private static final String[] cyclingName = {
             "bekasigowes",
             "GOWESYUK BEKASI",
-            ""
+
     };
 
     private static final String[] cyclingDetail = {
-            "Ayo bermain Bersepeda bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
-            "Ayo bermain Bersepeda bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
-            "Ayo bermain Bersepeda bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
-            "Ayo bermain Bersepeda bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
             "Ayo bermain Bersepeda bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
             "Ayo bermain Bersepeda bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
 

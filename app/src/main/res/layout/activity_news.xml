@@ -5,11 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
+    android:layout_margin="3dp"
     >
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_news"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/zitem_row_news" />
+        tools:listitem="@layout/zitem_row" />
 </RelativeLayout>
