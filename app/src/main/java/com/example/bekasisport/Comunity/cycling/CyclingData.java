@@ -7,15 +7,25 @@ import java.util.Collection;
 public class CyclingData {
 
     private static final String[] cyclingName = {
-            "test"
+            "bekasigowes",
+            "GOWESYUK BEKASI",
+            ""
     };
 
     private static final String[] cyclingDetail = {
-            "me"
+            "Ayo bermain Bersepeda bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
+            "Ayo bermain Bersepeda bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
+            "Ayo bermain Bersepeda bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
+            "Ayo bermain Bersepeda bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
+            "Ayo bermain Bersepeda bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
+            "Ayo bermain Bersepeda bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
+
     };
 
     private static final int[] cyclingImage= {
-            R.drawable.test
+            R.drawable.p,
+            R.drawable.a,
+
 
     };
 

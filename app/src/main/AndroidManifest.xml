@@ -22,7 +22,7 @@
         <activity android:name=".Comunity.Basket.BasketActivity" />
         <activity android:name=".Comunity.Badminton.BadmintonActivity" />
         <activity android:name=".Comunity.CommunityActivity" />
-        <activity android:name=".NewsActivity" />
+        <activity android:name=".News.NewsActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

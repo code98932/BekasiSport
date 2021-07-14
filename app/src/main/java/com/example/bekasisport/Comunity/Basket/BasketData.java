@@ -8,15 +8,34 @@ import java.util.Collection;
 public class BasketData {
 
     private static final String[] basketName = {
-            "test"
+            "Fortius BasketBall Club Bekasi",
+            "PLaYHouR Basketball Club",
+            "Indonesia Muda Bola Basket",
+            "Lazar Basketball",
+            "Hobi basket Bekasi",
+            "Family Basketball Bekasi"
     };
 
     private static final String[] basketDetail = {
-            "ma"
+            "Ayo bermain Basket bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
+            "Ayo bermain Basket bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
+            "Ayo bermain Basket bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
+            "Ayo bermain Basket bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
+            "Ayo bermain Basket bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
+            "Ayo bermain Basket bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
+
     };
 
     private static final int[] basketImage= {
-            R.drawable.test
+            R.drawable.q,
+            R.drawable.w,
+            R.drawable.z,
+            R.drawable.x,
+            R.drawable.m,
+            R.drawable.b
+
+
+
 
     };
 

@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;import android.widget.Button;
 
 import com.example.bekasisport.Comunity.CommunityActivity;
+import com.example.bekasisport.News.NewsActivity;
 
 public class MainActivity extends AppCompatActivity {
 

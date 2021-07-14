@@ -9,15 +9,42 @@ import java.util.Collection;
 public class BadmintonData {
 
     private static final String[] badmintonName = {
-            "test"
+            "Perumnas Badminton Club",
+            "Altius Badminton CLub",
+            "lapaksports",
+            "Dian Jaya Badminton Gor",
+            "Gor Badminton Olympus",
+            "Kombad Bekasi"
+
+
+
+
     };
 
     private static final String[] badmintonDetail = {
-            "mi"
+            "Ayo bermain badminton bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
+            "Ayo bermain badminton bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
+            "Ayo bermain badminton bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
+            "Ayo bermain badminton bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
+            "Ayo bermain badminton bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
+            "Ayo bermain badminton bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
+
+
     };
 
     private static final int[] badmintonImage= {
-            R.drawable.test
+            R.drawable.badminton,
+            R.drawable.photo,
+            R.drawable.photo2,
+            R.drawable.e,
+            R.drawable.t,
+            R.drawable.y
+
+
+
+
+
+
 
     };
 
