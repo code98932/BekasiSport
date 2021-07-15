@@ -20,23 +20,48 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
+    <Button
+        android:id="@+id/buttona"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_bulet"
+        app:layout_constraintEnd_toEndOf="@+id/mostpopular1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/mostpopular1"
+        app:layout_constraintTop_toTopOf="@+id/mostpopular1" />
+
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/mostpopular1"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_marginTop="12dp"
-        android:src="@android:color/darker_gray"
+        android:src="@drawable/badminton"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/buttonb"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_bulet"
+        app:layout_constraintEnd_toEndOf="@+id/mostpopular2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/mostpopular2"
+        app:layout_constraintTop_toTopOf="@+id/mostpopular2" />
+
+
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/mostpopular2"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_marginStart="24dp"
-        android:src="@android:color/darker_gray"
+        android:src="@drawable/e"
         app:layout_constraintBottom_toBottomOf="@+id/mostpopular1"
         app:layout_constraintStart_toEndOf="@+id/mostpopular1"
         app:layout_constraintTop_toTopOf="@+id/mostpopular1"

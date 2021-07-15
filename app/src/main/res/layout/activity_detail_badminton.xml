@@ -17,7 +17,7 @@
             />
 
         <TextView
-            android:padding="16dp"
+            android:padding="10dp"
             android:id="@+id/textjudulbadminton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -30,12 +30,11 @@
             android:id="@+id/penjelasanbadminton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="casual"
             android:padding="12dp"
             android:text="@string/penjelasan"
             android:textColor="#000000"
-            android:textSize="23sp"
-            android:textStyle="bold" />
+            android:textSize="18sp"
+             />
 
     </LinearLayout>
 
