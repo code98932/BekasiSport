@@ -9,18 +9,22 @@ public class CyclingData {
     private static final String[] cyclingName = {
             "bekasigowes",
             "GOWESYUK BEKASI",
+            "SOBAT GOWES BEKASI"
 
     };
 
     private static final String[] cyclingDetail = {
             "Ayo bermain Bersepeda bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
             "Ayo bermain Bersepeda bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
+            "Ayo bermain Bersepeda bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
+
 
     };
 
     private static final int[] cyclingImage= {
             R.drawable.p,
             R.drawable.a,
+            R.drawable.l,
 
 
     };
