@@ -8,15 +8,22 @@ public class FootballData {
 
 
     private static final String[] footballName = {
-            "test"
+            "Persikasi",
+            "Persipasi Bekasi",
+            ""
+
     };
 
     private static final String[] footballDetail = {
-            "meong"
+            "Persikasi adalah singkatan dari Persatuan Sepak Bola Indonesia Kabupaten Bekasi . Persikasi Bekasi adalah klub sepak bola Indonesia yang berbasis di Kabupaten Bekasi, Jawa Barat.",
+            "KALAH MENANG SUDAH BIASA PERSAHABATAN LUAR BIASA",
+
+
+
     };
 
     private static final int[] footballImage= {
-            R.drawable.test
+            R.drawable.k
 
     };
 
