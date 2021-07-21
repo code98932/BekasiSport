@@ -13,7 +13,8 @@ public class NewsData {
             "Panahan Kabupaten Bekasi Jalani Persiapan Khusus Jelang Porda XIII",
             "Atlet Golf Kabupaten Bekasi Mulai Jajal Venue Porda di Sentul",
             "Targetkan Medali Emas di Porda 2018, Perbasi Kabupaten Bekasi Rombak Tim",
-            "Latih Tanding, Voli Putri Kabupaten Bekasi Taklukkan Bandung Tectona 3-1"
+            "Latih Tanding, Voli Putri Kabupaten Bekasi Taklukkan Bandung Tectona 3-1",
+            "Adanya Permasalah Internal Jadi Penyebab Persikasi Mundur di Piala Suratin"
 
     };
 
@@ -105,7 +106,43 @@ public class NewsData {
                     "Ia juga mengucapkan terima kasih KONI Kabupaten Bekasi dan Disbudpora Kabupaten Bekasi yang tidak pernah berhenti memberikan suport dan dukungannya dalam melaksanakan kegiatan program latihan Tim Putri dan Putra Indoor serta Tim Putra dan Putri Pasir BK Porda Jabar Kabupaten Bekasi.\n" +
                     "\n" +
                     "Pada Pertandingan uji coba di Stadion Pekopen yang juga dihadiri Wakil Ketua Bidang Kompetisi dan Pertandingan PBVSI Jawa Barat,  H. Dadi. (*/red)",
+
+            "POJOKJABAR.com, BEKASI – Asosiasi Provinsi (Asprov) PSSI Jawa Barat menegaskan bahwa mundurnya Persikasi di Piala Suratin U-17 2018 karena persoalan internal.\n" +
+                    "\n" +
+                    "Hal itu berdasarkan surat yang masuk ke Asprov PSSI Jawa Barat Jum’at (13/4) lalu. Alasan adanya permasalahan internal, membuat skuat Persikasi batal bertolak ke Tasikmalaya untuk berlaga di Piala Suratin 2018 regional Jawa Barat (Jabar).\n" +
+                    "\n" +
+                    "Pengurus Asprov PSSI Jawa Barat, Andre Santana mengakui adanya surat pembatalan bertanding. Surat diterima satu hari sebelum bergulirnya pertandingan group H Piala Suratin 2018.\n" +
+                    "\n" +
+                    "“Surat masuk pada kami, alasan mengundurkan diri dan sudah tertulis. Alasan yang kami terima, karena ada masalah internal di persikasi,” ujarnya saat dikonfirmasi Radar Bekasi (Pojoksatu.id Grup), Selasa (17/4).\n" +
+                    "\n" +
+                    "Sementara itu saat ditanyakan mengenai hal lain, pihaknya enggan berspekulasi lebih jauh. Ia menambahkan, pemberian surat pengunduran diri disampaikan langsung oleh pihak Persikasi, diwakili oleh Sekretaris Suratin, Jemi Riswana.\n" +
+                    "\n" +
+                    "“Itu masalah internal, itu yang kami terima,” tegasnya.\n" +
+                    "\n" +
+                    "Lebih jauh, kabar pengunduran diri berasal dari Kepala Pelatih Persikasi, Sapta Hadi Bagio, atau yang akrab disapa Babay. Babay memutuskan menarik pemainnya dan tidak berlaga di Piala Surati 2018.\n" +
+                    "\n" +
+                    "Saat dikorfirmasi, Babay akhirnya buka suara. Ia menjelaskan pembatalan keikutsertaan Persikasi U-17 di Piala Suratin 2018 itu disebabkan karena keringat pelatih dan pemain tidak dihargai oleh manajemen yang dalam hal ini ditangani oleh KONI Kabupaten Bekasi.\n" +
+                    "\n" +
+                    "“Saya tidak ingin pemain dan pelatih terlantar saat Persikasi U-17 berlaga di Suratin 2018. Parah bang, keringat pelatih dan pemain enggak dihargai sama sekali. Transport dan gaji pelatih kagak dibayar. Transport pemain nggak dibayar. Maaf bang, mau berangkat itu meninggalkan keluarga anak istri. Masa nggak dikasih dan cuma dijanjiin doang,” kata Babay.\n" +
+                    "\n" +
+                    "Kejadian ini, kata dia, hampir terjadi setiap tahun dalam setiap kompetisi yang diikuti Persikasi dimana para pemain dan pelatih terlantar.\n" +
+                    "\n" +
+                    "“Saya orang paling kecewa bang. Dari persiapan sampai pemberangkatan ora diliat-liat dan diurus,” jelasnya\n" +
+                    "Ia mengaku siap untuk dipertemukan dengan semua pihak guna mengklarifikasi atau menjelaskan persoalantersebut, agar kedepanya persoalan serupa tidak terulang dan Persikasi dapat hadir di setiap kompetisi.\n" +
+                    "\n" +
+                    "“Saya siap dipertemukan dengan semua pihak dan duduk bareng biar tahu semuanya,” tegas Babay\n" +
+                    "\n" +
+                    "Ia menambahkan, statmen Ketua KONI Kabupaten Bekasi, Romli, banyak yang tidak benar. Dimana, ketua umum Persikasi, Eka Supria Atmaja, tidak pernah diberitahu tentang pembentukan tim suratin dan Liga 3.\n" +
+                    "\n" +
+                    "“Semua diambil alih sama Romli. Karena ada indikasi dana hibah, serakah judulnya sih. Kita tidak mau terima janji-janji orang partai. Kami orang bola, perlu karya nyata. Itu kontrak untuk pemain,” tegasnya\n" +
+                    "\n" +
+                    "Sementara itu, saat ditegaskan soal sanksi dari Asprov PSSI Jabar yang akan menimpa Persikasi, Babay mengaku tidak tahu menahu. Babay juga mengkritisi sistem manajemen Persikasi yang sudah diluar jalur. Banyak aktivitas Persikasi yang justru diambil alih KONI padahal sudah ada ketua baru Persikasi.\n" +
+                    "\n" +
+                    "“Harusnya yang namanya persikasi kontrak dari ketum persikasi Bang Eka. Masalah sangsi saya belum tahu,” tandasnya."
+
     };
+
+
 
 
     private static int[] HotelImage = {
@@ -114,7 +151,10 @@ public class NewsData {
             R.drawable.n3,
             R.drawable.n4,
             R.drawable.n5,
-            R.drawable.n6
+            R.drawable.n6,
+            R.drawable.n6,
+
+
     };
 
 
