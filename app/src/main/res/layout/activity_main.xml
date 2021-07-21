@@ -67,26 +67,51 @@
         app:layout_constraintTop_toTopOf="@+id/mostpopular1"
         app:layout_constraintVertical_bias="0.0" />
 
+
+    <Button
+        android:id="@+id/buttonc"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_bulet"
+        app:layout_constraintEnd_toEndOf="@+id/mostpopular3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/mostpopular3"
+        app:layout_constraintTop_toTopOf="@+id/mostpopular3" />
+
+
+
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/img_item_photomm"
+        android:id="@+id/mostpopular3"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_marginStart="24dp"
-        android:src="@android:color/darker_gray"
+        android:src="@drawable/n1"
         app:layout_constraintBottom_toBottomOf="@+id/mostpopular2"
         app:layout_constraintStart_toEndOf="@+id/mostpopular2"
         app:layout_constraintTop_toTopOf="@+id/mostpopular2"
         app:layout_constraintVertical_bias="0.0" />
 
+    <Button
+        android:id="@+id/buttond"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_bulet"
+        app:layout_constraintEnd_toEndOf="@+id/mostpopular4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/mostpopular4"
+        app:layout_constraintTop_toTopOf="@+id/mostpopular4" />
+
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/img_item_photomm2"
+        android:id="@+id/mostpopular4"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_marginStart="24dp"
-        android:src="@android:color/darker_gray"
-        app:layout_constraintBottom_toBottomOf="@+id/img_item_photomm"
-        app:layout_constraintStart_toEndOf="@+id/img_item_photomm"
-        app:layout_constraintTop_toTopOf="@+id/img_item_photomm"
+        android:src="@drawable/n3"
+        app:layout_constraintBottom_toBottomOf="@+id/mostpopular3"
+        app:layout_constraintStart_toEndOf="@+id/mostpopular3"
+        app:layout_constraintTop_toTopOf="@+id/mostpopular3"
         app:layout_constraintVertical_bias="0.0" />
 
 

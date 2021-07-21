@@ -9,6 +9,8 @@ import com.example.bekasisport.Comunity.Badminton.BadmintonActivity;
 import com.example.bekasisport.Comunity.Basket.Basket;
 import com.example.bekasisport.Comunity.Basket.BasketActivity;
 import com.example.bekasisport.Comunity.CommunityActivity;
+import com.example.bekasisport.Comunity.Skateboard.SkateboardActivity;
+import com.example.bekasisport.Comunity.Swimming.SwimmingActivity;
 import com.example.bekasisport.News.DetailNews;
 import com.example.bekasisport.News.NewsActivity;
 
@@ -28,6 +30,18 @@ public class MainActivity extends AppCompatActivity {
         Button btnnewsb = findViewById(R.id.buttonb);
         btnnewsb.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, BasketActivity.class);
+            startActivity(intent);
+        });
+
+        Button btnnewsc = findViewById(R.id.buttonc);
+        btnnewsc.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, SwimmingActivity.class);
+            startActivity(intent);
+        });
+
+        Button btnnewsd = findViewById(R.id.buttond);
+        btnnewsd.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, SkateboardActivity.class);
             startActivity(intent);
         });
 
