@@ -152,7 +152,7 @@ public class NewsData {
             R.drawable.n4,
             R.drawable.n5,
             R.drawable.n6,
-            R.drawable.n6,
+            R.drawable.n7,
 
 
     };
