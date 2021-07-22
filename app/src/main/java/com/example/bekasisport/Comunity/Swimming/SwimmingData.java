@@ -17,6 +17,7 @@ public class SwimmingData {
     private static final String[] swimDetail = {
             "Kolam renang sarang walet adalah tempat rekreasi untuk keluarga dengan suasana yang nyaman, bersih, dan murah.",
             "Indoor waterpark pertama di Indonesia dibangun tahun 2013 adalah tempat rekreasi yang sangat cocok untuk anak-anak. Didesain dengan konsep ala pertunjukan sirkus, Waterboom ini juga melindungi anak-anak dari kepanasan dan kehujanan, ada kolam air panas, lantai dari rubber yang safety dan nyaman. Ada fasilitas sauna dan Mom n Baby Spa membuat Sirkus Waterplay menjadi tempat favorite bagi keluarga",
+            "Go Splash Panjibuwono kini hadir sebagai destinasi wisata baru bagi warga kota Bekasi. Proyek destinasi wisata kaum urban ini dibangun di perumahan Panjibuwono Residence, di Jl Pertamina, Desa Kedung Pengawas, Babelan, Bekasi, Jawa Barat. Go Splash menjadi wahana bermain air anak terbesar di kawasan utara Bekasi dengan to tal areanya mencapai sekitar 2 hektar."
 
 
     };
