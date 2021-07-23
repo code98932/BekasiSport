@@ -8,15 +8,25 @@ import java.util.Collection;
 public class SkateboardData {
 
     private static final String[] skateName = {
-            "test"
+            "Tugu Skatepark & Skateshop",
+            "homiesskateshop",
+            "TSP Skateshop"
+
+
     };
 
     private static final String[] skateDetail = {
-            "meong"
+            "Tugu Skatepark & Skateshop berlokasi di jalan Kemandoran, Pekayon Jaya, Bekasi Selatan. Tempat kami menjual berbagai peralatan Skateboard dan appreal skateboard. Selain itu juga tersedia arena bermain skateboard yang nyaman. Kami juga menyediakan instruktur bagi yang ingin bermain skateboard. Tempat yang nyamam, Pelayanan yang ramah profesional bisa anda dapatkan di tempat kami. Silahkan hubungi kami untuk info lebih lanjut.",
+            "kami menjual berbagai macam papan skate ada juga yang full set,serta juga kami menjual berbagai macam merchendise,seperti T-shirt,jacket hoodie,sneakers,snapback dan onderdil skate.#LOLAMAGUETINGGAL",
+            "Ayo bermain skateboard bersama warga lapangan sekitar, setiap pertandingan dan latihan akan diadakan setiap paginya.",
+
     };
 
     private static final int[] skateImage= {
-            R.drawable.test
+            R.drawable.sd,
+            R.drawable.xc,
+            R.drawable.bn
+
 
     };
 
